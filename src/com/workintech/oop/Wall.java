@@ -20,18 +20,18 @@ public class Wall {
         return height;
     }
 
-    public void setWidth(double param){
-        if(param < 0){
-            width = 0;
+    public void setWidth(double width){
+        if(width < 0){
+            this.width = 0;
         }else {
-            width = param;
+            this.width = width;
         }
     }
-    public void setHeight(double param){
-        if(param < 0){
-            height = 0;
+    public void setHeight(double height){
+        if(height < 0){
+            this.height = 0;
         }else {
-            height = param;
+            this.height = height;
         }
     }
 
