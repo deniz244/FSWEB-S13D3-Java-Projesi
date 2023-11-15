@@ -3,6 +3,7 @@ package com.workintech.oop;
 public class Person {
 
     //instance variables/fields
+
     String firstName;
     String lastName;
     int age;
@@ -19,8 +20,9 @@ public class Person {
     }
 
     //Constructor2
-    public Person(String gender,String address,String phoneNum){
-        //this(firstName,lastName,age);
+    public Person(String gender,String address,String phoneNum,String firstName, String lastName, int age){
+        //constructor chaining
+        this(firstName,lastName,age);
         this.gender=gender;
         this.address=address;
         this.phoneNum=phoneNum;
