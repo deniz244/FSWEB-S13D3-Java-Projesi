@@ -39,6 +39,4 @@ public class Wall {
         return width*height;
     }
 
-
-
 }
